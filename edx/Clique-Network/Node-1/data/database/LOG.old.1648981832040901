@@ -1,0 +1,104 @@
+2022/04/03-12:30:09.437167 7f31685ec700 RocksDB version: 6.15.2
+2022/04/03-12:30:09.437234 7f31685ec700 Git sha rocksdb_build_git_sha:
+2022/04/03-12:30:09.437236 7f31685ec700 Compile date Jan  4 2021
+2022/04/03-12:30:09.437308 7f31685ec700 DB SUMMARY
+2022/04/03-12:30:09.437310 7f31685ec700 DB Session ID:  19TCPT2MCJI7JRBB8UUF
+2022/04/03-12:30:09.437345 7f31685ec700 CURRENT file:  CURRENT
+2022/04/03-12:30:09.437347 7f31685ec700 IDENTITY file:  IDENTITY
+2022/04/03-12:30:09.437350 7f31685ec700 MANIFEST file:  MANIFEST-000036 size: 905 Bytes
+2022/04/03-12:30:09.437352 7f31685ec700 SST files in /home/kareemikassab/Besu_Practice/edx/Clique-Network/Node-1/data/database dir, Total Num: 4, files: 000022.sst 000023.sst 000029.sst 000035.sst 
+2022/04/03-12:30:09.437353 7f31685ec700 Write Ahead Log file in /home/kareemikassab/Besu_Practice/edx/Clique-Network/Node-1/data/database: 000037.log size: 7736 ; 
+2022/04/03-12:30:09.437355 7f31685ec700                         Options.error_if_exists: 0
+2022/04/03-12:30:09.437356 7f31685ec700                       Options.create_if_missing: 1
+2022/04/03-12:30:09.437357 7f31685ec700                         Options.paranoid_checks: 1
+2022/04/03-12:30:09.437358 7f31685ec700                               Options.track_and_verify_wals_in_manifest: 0
+2022/04/03-12:30:09.437359 7f31685ec700                                     Options.env: 0x7f30bbfbc3c0
+2022/04/03-12:30:09.437360 7f31685ec700                                      Options.fs: Posix File System
+2022/04/03-12:30:09.437361 7f31685ec700                                Options.info_log: 0x7f31655d8bb0
+2022/04/03-12:30:09.437362 7f31685ec700                Options.max_file_opening_threads: 16
+2022/04/03-12:30:09.437362 7f31685ec700                              Options.statistics: 0x7f3165567a10
+2022/04/03-12:30:09.437363 7f31685ec700                               Options.use_fsync: 0
+2022/04/03-12:30:09.437364 7f31685ec700                       Options.max_log_file_size: 0
+2022/04/03-12:30:09.437365 7f31685ec700                  Options.max_manifest_file_size: 1073741824
+2022/04/03-12:30:09.437366 7f31685ec700                   Options.log_file_time_to_roll: 0
+2022/04/03-12:30:09.437366 7f31685ec700                       Options.keep_log_file_num: 1000
+2022/04/03-12:30:09.437367 7f31685ec700                    Options.recycle_log_file_num: 0
+2022/04/03-12:30:09.437368 7f31685ec700                         Options.allow_fallocate: 1
+2022/04/03-12:30:09.437369 7f31685ec700                        Options.allow_mmap_reads: 0
+2022/04/03-12:30:09.437369 7f31685ec700                       Options.allow_mmap_writes: 0
+2022/04/03-12:30:09.437370 7f31685ec700                        Options.use_direct_reads: 0
+2022/04/03-12:30:09.437371 7f31685ec700                        Options.use_direct_io_for_flush_and_compaction: 0
+2022/04/03-12:30:09.437372 7f31685ec700          Options.create_missing_column_families: 1
+2022/04/03-12:30:09.437372 7f31685ec700                              Options.db_log_dir: 
+2022/04/03-12:30:09.437373 7f31685ec700                                 Options.wal_dir: /home/kareemikassab/Besu_Practice/edx/Clique-Network/Node-1/data/database
+2022/04/03-12:30:09.437374 7f31685ec700                Options.table_cache_numshardbits: 6
+2022/04/03-12:30:09.437375 7f31685ec700                         Options.WAL_ttl_seconds: 0
+2022/04/03-12:30:09.437376 7f31685ec700                       Options.WAL_size_limit_MB: 0
+2022/04/03-12:30:09.437376 7f31685ec700                        Options.max_write_batch_group_size_bytes: 1048576
+2022/04/03-12:30:09.437377 7f31685ec700             Options.manifest_preallocation_size: 4194304
+2022/04/03-12:30:09.437378 7f31685ec700                     Options.is_fd_close_on_exec: 1
+2022/04/03-12:30:09.437379 7f31685ec700                   Options.advise_random_on_open: 1
+2022/04/03-12:30:09.437380 7f31685ec700                    Options.db_write_buffer_size: 0
+2022/04/03-12:30:09.437380 7f31685ec700                    Options.write_buffer_manager: 0x7f31655d9990
+2022/04/03-12:30:09.437381 7f31685ec700         Options.access_hint_on_compaction_start: 1
+2022/04/03-12:30:09.437382 7f31685ec700  Options.new_table_reader_for_compaction_inputs: 0
+2022/04/03-12:30:09.437394 7f31685ec700           Options.random_access_max_buffer_size: 1048576
+2022/04/03-12:30:09.437395 7f31685ec700                      Options.use_adaptive_mutex: 0
+2022/04/03-12:30:09.437396 7f31685ec700                            Options.rate_limiter: (nil)
+2022/04/03-12:30:09.437417 7f31685ec700     Options.sst_file_manager.rate_bytes_per_sec: 0
+2022/04/03-12:30:09.437418 7f31685ec700                       Options.wal_recovery_mode: 2
+2022/04/03-12:30:09.437419 7f31685ec700                  Options.enable_thread_tracking: 0
+2022/04/03-12:30:09.437419 7f31685ec700                  Options.enable_pipelined_write: 0
+2022/04/03-12:30:09.437420 7f31685ec700                  Options.unordered_write: 0
+2022/04/03-12:30:09.437421 7f31685ec700         Options.allow_concurrent_memtable_write: 1
+2022/04/03-12:30:09.437422 7f31685ec700      Options.enable_write_thread_adaptive_yield: 1
+2022/04/03-12:30:09.437422 7f31685ec700             Options.write_thread_max_yield_usec: 100
+2022/04/03-12:30:09.437423 7f31685ec700            Options.write_thread_slow_yield_usec: 3
+2022/04/03-12:30:09.437424 7f31685ec700                               Options.row_cache: None
+2022/04/03-12:30:09.437425 7f31685ec700                              Options.wal_filter: None
+2022/04/03-12:30:09.437426 7f31685ec700             Options.avoid_flush_during_recovery: 0
+2022/04/03-12:30:09.437427 7f31685ec700             Options.allow_ingest_behind: 0
+2022/04/03-12:30:09.437427 7f31685ec700             Options.preserve_deletes: 0
+2022/04/03-12:30:09.437428 7f31685ec700             Options.two_write_queues: 0
+2022/04/03-12:30:09.437429 7f31685ec700             Options.manual_wal_flush: 0
+2022/04/03-12:30:09.437430 7f31685ec700             Options.atomic_flush: 0
+2022/04/03-12:30:09.437431 7f31685ec700             Options.avoid_unnecessary_blocking_io: 0
+2022/04/03-12:30:09.437431 7f31685ec700                 Options.persist_stats_to_disk: 0
+2022/04/03-12:30:09.437432 7f31685ec700                 Options.write_dbid_to_manifest: 0
+2022/04/03-12:30:09.437433 7f31685ec700                 Options.log_readahead_size: 0
+2022/04/03-12:30:09.437434 7f31685ec700                 Options.file_checksum_gen_factory: Unknown
+2022/04/03-12:30:09.437434 7f31685ec700                 Options.best_efforts_recovery: 0
+2022/04/03-12:30:09.437435 7f31685ec700                Options.max_bgerror_resume_count: 2147483647
+2022/04/03-12:30:09.437436 7f31685ec700            Options.bgerror_resume_retry_interval: 1000000
+2022/04/03-12:30:09.437437 7f31685ec700             Options.allow_data_in_errors: 0
+2022/04/03-12:30:09.437438 7f31685ec700             Options.db_host_id: __hostname__
+2022/04/03-12:30:09.437439 7f31685ec700             Options.max_background_jobs: 2
+2022/04/03-12:30:09.437440 7f31685ec700             Options.max_background_compactions: 4
+2022/04/03-12:30:09.437441 7f31685ec700             Options.max_subcompactions: 1
+2022/04/03-12:30:09.437442 7f31685ec700             Options.avoid_flush_during_shutdown: 0
+2022/04/03-12:30:09.437442 7f31685ec700           Options.writable_file_max_buffer_size: 1048576
+2022/04/03-12:30:09.437443 7f31685ec700             Options.delayed_write_rate : 16777216
+2022/04/03-12:30:09.437444 7f31685ec700             Options.max_total_wal_size: 0
+2022/04/03-12:30:09.437445 7f31685ec700             Options.delete_obsolete_files_period_micros: 21600000000
+2022/04/03-12:30:09.437446 7f31685ec700                   Options.stats_dump_period_sec: 600
+2022/04/03-12:30:09.437447 7f31685ec700                 Options.stats_persist_period_sec: 600
+2022/04/03-12:30:09.437447 7f31685ec700                 Options.stats_history_buffer_size: 1048576
+2022/04/03-12:30:09.437448 7f31685ec700                          Options.max_open_files: 1024
+2022/04/03-12:30:09.437449 7f31685ec700                          Options.bytes_per_sync: 0
+2022/04/03-12:30:09.437450 7f31685ec700                      Options.wal_bytes_per_sync: 0
+2022/04/03-12:30:09.437451 7f31685ec700                   Options.strict_bytes_per_sync: 0
+2022/04/03-12:30:09.437457 7f31685ec700       Options.compaction_readahead_size: 0
+2022/04/03-12:30:09.437458 7f31685ec700                  Options.max_background_flushes: -1
+2022/04/03-12:30:09.437459 7f31685ec700 Compression algorithms supported:
+2022/04/03-12:30:09.437460 7f31685ec700 	kZSTDNotFinalCompression supported: 1
+2022/04/03-12:30:09.437479 7f31685ec700 	kZSTD supported: 1
+2022/04/03-12:30:09.437480 7f31685ec700 	kXpressCompression supported: 0
+2022/04/03-12:30:09.437481 7f31685ec700 	kLZ4HCCompression supported: 1
+2022/04/03-12:30:09.437482 7f31685ec700 	kLZ4Compression supported: 1
+2022/04/03-12:30:09.437483 7f31685ec700 	kBZip2Compression supported: 1
+2022/04/03-12:30:09.437484 7f31685ec700 	kZlibCompression supported: 1
+2022/04/03-12:30:09.437503 7f31685ec700 	kSnappyCompression supported: 1
+2022/04/03-12:30:09.437506 7f31685ec700 Fast CRC32 supported: Not supported on x86
+2022/04/03-12:30:09.437573 7f31685ec700 [WARN] [/db_impl/db_impl_open.cc:1787] Persisting Option File error: OK
+2022/04/03-12:30:09.437608 7f31685ec700 [/db_impl/db_impl.cc:447] Shutdown: canceling all background work
+2022/04/03-12:30:09.437644 7f31685ec700 [/db_impl/db_impl.cc:625] Shutdown complete

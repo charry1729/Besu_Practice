@@ -1,0 +1,40 @@
+# Valid TOML config file
+data-path="~/besudata"
+# This is the datapath where the blockchain data will be stored
+
+# Network
+bootnodes=["enode://001@123:4567", "enode://002@123:4567", "enode://003@123:4567"]
+# In a private network, an enode URL is the identifier for a node and
+# allows for the bootnodes to discover each other as they start up. In
+# this example, there are three bootnodes stipulated for this network
+
+p2p-host="1.2.3.4"
+# Stipulates the advertised host that can be used to access the node
+# from outside the network in Peer to Peer communication
+p2p-port=1234
+#
+max-peers=42
+# The maximum number of peer to peer connections this network can
+# establish
+
+rpc-http-host="5.6.7.8"
+# Specifies the host on which HTTP JSON-RPC listens
+rpc-http-port=5678
+# The HTTP JSON-RPC listening port (TCP)
+
+rpc-ws-host="9.10.11.12"
+# The host for Websocket WS-RPC to listen on
+rpc-ws-port=9101
+# The Websockets JSON-RPC listening port (TCP)
+
+genesis-file="~/genesis.json"
+# Path to the custom genesis file. The next lesson will explain how to
+# create a genesis file and what is contained in the genesis file
+
+miner-enabled=true
+# This option enables mining when the node is started. The type of
+# consensus mechanism will be stipulated in the genesis file
+
+miner-coinbase="0xfe3b557e8fb62b89f4916b721be55ceb828dbd73"
+# miner-coinbase provides the account to which mining rewards will be
+# paid for this blockchain

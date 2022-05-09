@@ -1,0 +1,25 @@
+- kind: Vault
+  type: hashicorp
+  name: hashicorp-quorum
+  specs:
+    mount_point: quorum
+    address: http://vault:8200
+    token: DevVaultToken
+    namespace: ''
+- kind: Store
+  type: key
+  name: keystore
+  specs:
+    vault: hashicorp-quorum
+- kind: Store
+  type: ethereum
+  name: eth-accounts
+  specs:
+    key_store: keystore
+
+- kind: Node
+  name: besu-node
+  specs:
+    rpc:
+      addr: http://network_member1besu_1:8545
+
